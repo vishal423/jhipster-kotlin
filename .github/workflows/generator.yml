@@ -23,4 +23,5 @@ jobs:
               run: $KHI_SCRIPTS/04-git-config.sh
               shell: bash
             - run: npm ci
-            - run: npm test
+            - run: ls .
+            - run: ls node_modules/generator-jhipster/test/templates/compose
